@@ -65,6 +65,10 @@ const Wrapper = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  @media (max-width: 500px) {
+    width: 90%;
+    align-items: center;
+  }
 `;
 const Card = styled.div`
   height: 500px;
@@ -85,6 +89,9 @@ const Card = styled.div`
 
 const InputDiv = styled.div`
   margin-bottom: 10px;
+  @media (max-width: 500px) {
+    width: 90%;
+  }
   button {
     height: 40px;
     width: 120px;
@@ -94,6 +101,10 @@ const InputDiv = styled.div`
     font-family: Montserrat;
     font-weight: 600;
     cursor: pointer;
+    @media (max-width: 500px) {
+      /* width: 90%; */
+      align-items: center;
+    }
   }
 
   input {
