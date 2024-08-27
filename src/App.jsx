@@ -14,6 +14,19 @@ const App = () => {
 
     await axios.get(URL).then((res) => setWeather(res.data));
   };
+
+  // const updateTime = () => {
+  //   const now = new Date();
+  //   const timeString = now.toLocaleTimeString();
+  //   document.getElementById("current time").textContent = timeString;
+  // };
+
+  // // Update time every second
+  // setInterval(updateTime, 60);
+
+  // // Initial call to display time immediately on page load
+  // updateTime();
+
   return (
     <Container>
       <Wrapper>
